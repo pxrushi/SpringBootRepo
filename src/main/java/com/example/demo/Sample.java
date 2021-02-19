@@ -5,6 +5,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Sample implements CommandLineRunner {
+	
+	private int sno;
+	private String sname;
+	private String sadd;
 
 	@Override
 	public void run(String... args) throws Exception {
@@ -13,5 +17,12 @@ public class Sample implements CommandLineRunner {
 		System.out.println("Sample.run()");
 		System.out.println("Sample.run()");
 	}
+
+	@Override
+	public String toString() {
+		return "Sample [sno=" + sno + ", sname=" + sname + ", sadd=" + sadd + "]";
+	}
+	
+	
 
 }
