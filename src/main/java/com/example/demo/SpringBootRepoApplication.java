@@ -14,6 +14,9 @@ public class SpringBootRepoApplication {
 		int c = a + b;
 		System.out.println("Ans is :" + c);
 
+		System.out.println("Hello World...");
+		System.out.println("How are You..");
+
 	}
 
 }
